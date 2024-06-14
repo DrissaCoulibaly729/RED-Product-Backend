@@ -16,9 +16,9 @@ const {
 } = require("../controllers/user.controller.js");
 
 
-router.get("/", getSessionUserId);
+//router.get("/", getSessionUserId);
 
-router.get("/", getUsers);
+//router.get("/", getUsers);
 router.get("/:id", getUser);
 
 router.get("/email/:email", getUserByEmail);
